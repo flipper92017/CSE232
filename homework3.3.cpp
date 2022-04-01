@@ -1,10 +1,11 @@
 #include <iostream>
+using std::cin, std::cout;
 
 int main() 
 {
-    char input = '\n';
-    std::cin >> input;
+    char input;
+    cin >> input;
     input++;
-    std::cout << input;
+    cout << input;
     return 0;
 }
